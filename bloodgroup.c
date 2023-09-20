@@ -34,12 +34,20 @@ void main()
     else if (strcmp(G, "AB") == 0)
     {
       printf("%s, AB. Oh my God, you can give blood only to: AB.\n", Name);
+<<<<<<< HEAD
       printf("  OH MY GOD! Are you serious, you can receive blood from all: O, A, B, AB.\n");
+=======
+      printf("  Fortunately, you can receive blood from all: O, A, B, AB.\n");
+>>>>>>> 908a5b074416b2a3e9fab5a04e05d6669ae8f1f2
     }
     else
     {
       printf("%s, O. Nice! You can give blood to all: O, A, B, AB\n", Name);
+<<<<<<< HEAD
       printf("  OH NO NO NO NO, jang nan anin de, You can receive blood only from: O\n");
+=======
+      printf(" Unfortunatly, You can receive blood only from: O\n");
+>>>>>>> 908a5b074416b2a3e9fab5a04e05d6669ae8f1f2
     }
     printf("\nContinue (YES for Yes)? ");
     scanf("%s", answer);
